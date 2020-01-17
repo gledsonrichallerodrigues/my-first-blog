@@ -1,0 +1,8 @@
+# para atualizar o server com a ultima versao do git
+git pull
+
+# para acessar o virtual env dentro do pythonanywhere.com
+workon <your-pythonanywhere-domain>.pythonanywhere.com
+
+# para atualizar o site com o novo CSS
+(ola.pythonanywhere.com)$ python manage.py collectstatic
